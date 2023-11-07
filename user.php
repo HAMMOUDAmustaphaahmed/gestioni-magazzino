@@ -97,11 +97,13 @@
 
 <body>
     <div class="navbar">
+        
         <div style="flex-grow: 1;"></div>
+        
         <a href="index.php">Logout</a>
     </div>
 
-    <div class="container">
+<div class="container">
         <div class="user-form">
             <form action="ticket.php" method="post">
                 <h2>Créer une Ticket</h2>

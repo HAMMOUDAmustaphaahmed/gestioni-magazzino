@@ -70,7 +70,7 @@
         $sql = "SELECT * FROM employees WHERE email = '$email' AND password = '$password'";
         $result = $conn->query($sql);
 
-        if ($email === 'admin@gmail.com' && $password === 'admin.2023')  {
+        if ($email === 'admin@gmail.com' && $password === 'admin.2024')  {
             // Redirect to the admin dashboard if the user is an admin
             
                 header('Location: dashboard.php');

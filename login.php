@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
 
     // Check if the username and password are correct
-    if ($username === 'admin@gmail.com' && $password === 'admin.2023') {
+    if ($username === 'admin@gmail.com' && $password === 'admin.2024') {
         // Store the username in the session
         $_SESSION['username'] = $username;
 
